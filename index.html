@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra Papel Tijera</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+
+<body>
+
+<div Id="contenedor">
+    <div id="inicial">
+        <h1 class="pptls">Piedra, Papel, Tijeras, Lagarto, Spock</h1>    
+        <h2 onClick="mostrar()">Clic aquí para jugar</h2>
+        <h1>Tijeras Cortan Papel</h1>
+        <h1>Papel Tapa Piedra</h1>
+        <h1>Piedra Aplasta Lagarto</h1>
+        <h1>Lagarto Envenena Spock</h1>
+        <h1>Spock Rompe Tijeras</h1>
+        <h1>Tijeras Decapitan Lagarto</h1>
+        <h1>Lagarto Debora Papel</h1>
+        <h1>Papel Desautoriza Spock</h1>
+        <h1>Spock Vaporiza Papel</h1>
+        <h1>Piedra Aplasta Tijeras</h1>
+    </div>
+    <div id="juego">
+        <h1>Qué Eliges?</h1>					
+        <div>
+            <input type="image" onClick="jugar('Piedra')" src="img/piedra.png" width="125px" height="125px"> 
+        </div>
+        <div>
+            <input type="image" onClick="jugar('Papel')" src="img/papel.png" width="125px" height="125px"> 
+        </div>
+        <div>
+            <input type="image" onClick="jugar('Tijeras')" src="img/tijeras.png" width="125px" height="125px"> 
+        </div>
+        <div>
+            <input type="image" onClick="jugar('Lagarto')" src="img/lagarto.png" width="125px" height="125px"> 
+        </div>
+        <div>
+            <input type="image" onClick="jugar('Spock')" src="img/spock.jpg" width="125px" height="125px"> 
+        </div>
+		<h2>La Máquina está Eligiendo</h2>		
+    </div>
+    <div id="resultado"></div>	
+</div>
+
+<script src="js/index.js"></script>  
+</body>
+</html>
